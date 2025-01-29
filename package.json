@@ -13,6 +13,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
     "@vitest/browser": "^3.0.4",
+    "@vue/test-utils": "^2.4.6",
+    "@vueuse/core": "^12.5.0",
     "playwright": "^1.50.0",
     "vitest": "^3.0.4",
     "vitest-browser-vue": "^0.1.0",
