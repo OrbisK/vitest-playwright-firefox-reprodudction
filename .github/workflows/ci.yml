@@ -33,4 +33,4 @@ jobs:
         run: pnpm exec playwright install --with-deps
 
       - name: Run tests
-        run: pnpm vitest ${{ matrix.project }}
+        run: pnpm vitest ${{ matrix.pattern }}
