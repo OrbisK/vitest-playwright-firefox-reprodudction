@@ -10,6 +10,7 @@ export default defineConfig({
     },
     test: {
         name: 'browser',
+        setupFiles: ['vitest-browser-vue'],
         browser: {
             enabled: true,
             provider: 'playwright',
