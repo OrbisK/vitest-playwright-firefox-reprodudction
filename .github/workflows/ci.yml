@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - downgrade/playwright
   pull_request:
     branches:
       - main
+      - downgrade/playwright
   workflow_dispatch:
 
 jobs:
